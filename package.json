@@ -24,6 +24,6 @@
         "typescript": "4.1.3"
     },
     "peerDependencies": {
-        "@reiryoku/mida": "1.x"
+        "@reiryoku/mida": "file:../mida"
     }
 }
