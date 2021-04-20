@@ -10,6 +10,9 @@
         "paths": {
             "#*": [
                 "./src/*"
+            ],
+            "@reiryoku/mida/*": [
+                "../mida/src/*"
             ]
         },
         "removeComments": true,
@@ -20,5 +23,10 @@
     "exclude": [
         "build",
         "node_modules"
+    ],
+    "references": [
+        {
+            "path": "../mida"
+        }
     ]
 }

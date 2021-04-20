@@ -22,7 +22,6 @@
             10
         ],
         "member-access": true,
-        "no-default-export": true,
         "no-duplicate-variable": true,
         "no-null-keyword": true,
         "no-parameter-reassignment": true,
