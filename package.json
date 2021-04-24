@@ -17,23 +17,22 @@
     },
     "scripts": {
         "lint": "tslint --project .",
-        "build": "tsc",
+        "build": "ttsc",
         "test": "npm run build && jest --verbose",
         "safe-build": "rm -rf ./build && npm run lint && npm run build && jest"
     },
-    "imports": {
-        "#*": "./build/src/*.js"
-    },
-    "exports": {
-        ".": "./build/src/Mida.js",
-        "./*": "./build/src/*.js"
-    },
+    "main": "./build/MidaPluginTemplate.js",
+    "types": "./build/MidaPluginTemplate.d.ts",
     "devDependencies": {
-        "@reiryoku/mida": "git+https://github.com/Reiryoku-Technologies/Mida.git",
+        "@reiryoku/mida": "file:../mida",
         "@types/jest": "26.0.20",
         "@types/node": "12.7.2",
-        "jest": "26.6.3",
         "tslint": "5.18.0",
-        "typescript": "4.2.4"
+        "ttypescript": "1.5.12",
+        "typescript": "4.2.4",
+        "typescript-transform-paths": "2.2.3"
+    },
+    "peerDependencies": {
+        "@reiryoku/mida": "*"
     }
 }
