@@ -7,8 +7,11 @@
         "module": "commonjs",
         "outDir": "build",
         "paths": {
+            "!/*": [
+                "./*"
+            ],
             "#*": [
-                "./src/*"
+                "./src/core/*"
             ]
         },
         "removeComments": true,
@@ -16,8 +19,13 @@
         "strict": true,
         "target": "es6",
         "plugins": [
-            { "transform": "typescript-transform-paths" },
-            { "transform": "typescript-transform-paths", "afterDeclarations": true }
+            {
+                "transform": "typescript-transform-paths"
+            },
+            {
+                "transform": "typescript-transform-paths",
+                "afterDeclarations": true
+            }
         ]
     },
     "exclude": [
