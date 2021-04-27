@@ -1,1 +1,1 @@
-This directory contains the Mida plugin entry points.
+This directory contains the entry points of this plugin.

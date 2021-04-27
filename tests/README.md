@@ -1,1 +1,1 @@
-This directory contains all the Mida plugin tests.
+This directory contains all the tests of this plugin.

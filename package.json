@@ -24,6 +24,9 @@
     },
     "main": "./build/entry/node/main.js",
     "types": "./build/entry/node/main.d.ts",
+    "dependencies": {
+        "@reiryoku/mida": "file:../mida"
+    },
     "devDependencies": {
         "@types/jest": "26.0.20",
         "@types/node": "12.7.2",

@@ -1,1 +1,1 @@
-This directory contains the Mida plugin main source code.
+This directory contains the main source code of this plugin.
