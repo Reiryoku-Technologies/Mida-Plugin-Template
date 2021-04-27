@@ -1,1 +1,1 @@
-This directory contains the entry points of this plugin.
+This directory contains the plugin entry points.

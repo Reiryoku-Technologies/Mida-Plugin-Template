@@ -1,1 +1,1 @@
-This directory contains the main source code of this plugin.
+This directory contains the plugin main source code.
