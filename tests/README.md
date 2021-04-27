@@ -1,2 +1,1 @@
-# Index
-This directory contains all the Mida tests.
+This directory contains all the Mida plugin tests.
