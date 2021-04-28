@@ -1,1 +1,1 @@
-This directory contains all the plugin tests.
+This directory contains the plugin tests.
