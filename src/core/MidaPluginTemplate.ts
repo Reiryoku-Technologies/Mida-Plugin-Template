@@ -1,5 +1,6 @@
 import { MidaPlugin } from "@reiryoku/mida";
 
+// The constant name "plugin" is required, do not change it.
 export const plugin: MidaPlugin = new MidaPlugin({
     name: "MidaPluginTemplate", // Your plugin name.
     description: "A Mida plugin template.", // Your plugin description.
