@@ -1,4 +1,7 @@
-import { MidaPlugin } from "@reiryoku/mida";
+import {
+    MidaPlugin,
+    MidaPluginActions,
+} from "@reiryoku/mida";
 
 // The constant name "plugin" is required, do not change it.
 export const plugin: MidaPlugin = new MidaPlugin({
@@ -6,7 +9,7 @@ export const plugin: MidaPlugin = new MidaPlugin({
     description: "A Mida plugin template.", // Your plugin description.
     version: "1.0.0", // Your plugin version.
 
-    install (): void {
+    install (actions: MidaPluginActions): void {
         // Silence is golden.
     },
 });
