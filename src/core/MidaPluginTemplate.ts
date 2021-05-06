@@ -5,7 +5,7 @@ import {
 
 // The constant name "plugin" is required, do not change it.
 export const plugin: MidaPlugin = new MidaPlugin({
-    name: "MidaPluginTemplate", // Your plugin name.
+    name: "Mida Plugin Template", // Your plugin name.
     description: "A Mida plugin template.", // Your plugin description.
     version: "1.0.0", // Your plugin version.
 

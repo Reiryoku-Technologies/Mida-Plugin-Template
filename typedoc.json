@@ -1,5 +1,5 @@
 {
-    "name": "MidaPluginTemplate",
+    "name": "Mida Plugin Template",
     "includeVersion": true,
     "excludePrivate": true,
     "entryPoints": [
