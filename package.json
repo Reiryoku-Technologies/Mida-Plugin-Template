@@ -25,8 +25,7 @@
     "main": "./build/entry/node/main.js",
     "types": "./build/entry/node/main.d.ts",
     "files": [
-        "build",
-        "docs"
+        "build"
     ],
     "dependencies": {
         "@reiryoku/mida": "file:../mida"
