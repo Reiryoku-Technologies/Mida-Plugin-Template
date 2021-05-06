@@ -20,7 +20,8 @@
         "build": "ttsc",
         "test": "npm run build && jest --verbose",
         "safe-build": "rm -rf ./build && npm run lint && npm run build && jest",
-        "create-docs": "typedoc"
+        "create-docs": "typedoc",
+        "prepublishOnly": "npm run safe-build"
     },
     "main": "./build/entry/node/main.js",
     "types": "./build/entry/node/main.d.ts",
