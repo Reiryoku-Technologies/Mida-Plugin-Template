@@ -1,7 +1,7 @@
 import { MidaPlugin } from "@reiryoku/mida";
 
 describe("MidaPluginTemplate", () => {
-    describe("exports", () => {
+    describe("core exports", () => {
         it("a MidaPlugin instance called plugin", () => {
             expect(require("!/src/core/MidaPluginTemplate").plugin).toBeInstanceOf(MidaPlugin);
         });
