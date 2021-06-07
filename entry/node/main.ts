@@ -1,1 +1,1 @@
-export * from "!/src/core/MidaPluginTemplate";
+export default require("!/plugin.mida");

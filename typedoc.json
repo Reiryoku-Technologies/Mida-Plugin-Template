@@ -2,8 +2,6 @@
     "name": "Mida Plugin Template",
     "includeVersion": true,
     "excludePrivate": true,
-    "entryPoints": [
-        "./entry/node/main.ts"
-    ],
+    "entryPoints": [ "./entry/node/main.ts" ],
     "out": "docs/typedoc"
 }

@@ -16,11 +16,11 @@
         "url": "https://github.com/Reiryoku-Technologies/Mida-Plugin-Template.git"
     },
     "scripts": {
-        "lint": "tslint --project .",
+        "lint": "eslint . --ext .ts,.js",
         "build": "ttsc",
         "test": "npm run build && jest --verbose",
-        "safe-build": "rm -rf ./build && npm run lint && npm run build && jest",
         "create-docs": "typedoc",
+        "safe-build": "rm -rf ./build && npm run lint && npm run build && jest",
         "prepublishOnly": "npm run safe-build"
     },
     "main": "./build/entry/node/main.js",
@@ -32,17 +32,19 @@
         "tests"
     ],
     "devDependencies": {
-        "@reiryoku/mida": "^1.0.0",
-        "@types/jest": "26.0.20",
-        "@types/node": "12.7.2",
-        "jest": "26.6.3",
-        "tslint": "5.18.0",
-        "ttypescript": "1.5.12",
-        "typedoc": "0.20.19",
-        "typescript": "4.1.5",
-        "typescript-transform-paths": "2.2.3"
+        "@reiryoku/mida": "^2.0.0",
+        "@types/jest": "^26.0.20",
+        "@types/node": "^12.7.2",
+        "@typescript-eslint/eslint-plugin": "^4.26.0",
+        "@typescript-eslint/parser": "^4.26.0",
+        "eslint": "^7.28.0",
+        "jest": "^26.6.3",
+        "ttypescript": "^1.5.12",
+        "typedoc": "^0.20.36",
+        "typescript": "^4.3.2",
+        "typescript-transform-paths": "^2.2.4"
     },
     "peerDependencies": {
-        "@reiryoku/mida": "^1.0.0"
+        "@reiryoku/mida": "^2.0.0"
     }
 }

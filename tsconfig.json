@@ -5,14 +5,12 @@
         "incremental": true,
         "inlineSources": true,
         "module": "commonjs",
+        "noImplicitReturns": true,
+        "noImplicitOverride": true,
         "outDir": "build",
         "paths": {
-            "!/*": [
-                "./*"
-            ],
-            "#*": [
-                "./src/core/*"
-            ]
+            "!/*": [ "./*" ],
+            "#*": [ "./src/core/*" ]
         },
         "removeComments": true,
         "sourceMap": true,
@@ -28,8 +26,10 @@
             }
         ]
     },
-    "exclude": [
-        "build",
-        "node_modules"
-    ]
+    "include": [
+        ".eslintrc.js",
+        "jest.config.js",
+        "**/*.ts"
+    ],
+    "exclude": [ "build", "node_modules" ]
 }
