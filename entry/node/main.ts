@@ -1,1 +1,1 @@
-export default require("!/plugin.mida");
+module.exports = require("!/plugin.mida");

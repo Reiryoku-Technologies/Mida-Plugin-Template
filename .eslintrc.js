@@ -58,7 +58,6 @@ module.exports = {
         "array-element-newline": [ "error", { "minItems": 3, }, ],
         "brace-style": [ "error", "stroustrup", ],
         "camelcase": "error",
-        "capitalized-comments": "error",
         "comma-dangle": [ "error", {
             "arrays": "always",
             "objects": "always",
