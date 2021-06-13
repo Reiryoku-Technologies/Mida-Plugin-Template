@@ -3,5 +3,5 @@ module.exports = {
     parserOptions: { project: "tsconfig.json", },
     parser: "@typescript-eslint/parser",
     plugins: [ "@typescript-eslint", ],
-    extends: "@reiryoku/eslint-config-reiryoku",
+    extends: [ "@reiryoku/eslint-config-reiryoku", ],
 };
