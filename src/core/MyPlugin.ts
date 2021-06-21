@@ -19,7 +19,7 @@ export class MyPlugin extends MidaPlugin {
         });
     }
 
-    override install (actions: MidaPluginActions): void {
+    public override install (actions: MidaPluginActions): void {
         // Silence is golden.
     }
 }
