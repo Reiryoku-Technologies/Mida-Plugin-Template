@@ -1,21 +1,15 @@
 import {
     MidaPlugin,
     MidaPluginActions,
-    MidaPluginParameters,
 } from "@reiryoku/mida";
 
 export class MyPlugin extends MidaPlugin {
-    public constructor ({
-        id,
-        name,
-        version,
-        description,
-    }: MidaPluginParameters) {
+    public constructor () {
         super({
-            id,
-            name,
-            version,
-            description,
+            id: "my-plugin", // Plugin id, required
+            name: "My Plugin", // Plugin name, required
+            version: require("!/package.json").version, // Plugin version, required
+            description: "This plugin does nothing.", // Plugin description, optional
         });
     }
 
