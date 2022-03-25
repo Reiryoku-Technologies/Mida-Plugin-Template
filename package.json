@@ -1,7 +1,7 @@
 {
     "name": "@reiryoku/mida-plugin-template",
     "version": "1.0.0",
-    "description": "A Mida plugin template.",
+    "description": "A Mida plugin template",
     "license": "MIT",
     "homepage": "https://github.com/Reiryoku-Technologies/Mida-Plugin-Template",
     "bugs": {
@@ -34,19 +34,19 @@
     ],
     "devDependencies": {
         "@reiryoku/eslint-config-reiryoku": "^1.0.0",
-        "@reiryoku/mida": "^2.0.0",
-        "@types/jest": "^26.0.20",
-        "@types/node": "^12.7.2",
-        "@typescript-eslint/eslint-plugin": "^4.26.0",
-        "@typescript-eslint/parser": "^4.26.0",
-        "eslint": "^7.28.0",
-        "jest": "^26.6.3",
-        "ttypescript": "^1.5.12",
-        "typedoc": "^0.20.36",
-        "typescript": "^4.3.2",
-        "typescript-transform-paths": "^2.2.4"
+        "@reiryoku/mida": "^4.0.0",
+        "@types/jest": "^27.4.1",
+        "@types/node": "^17.0.22",
+        "@typescript-eslint/eslint-plugin": "^5.16.0",
+        "@typescript-eslint/parser": "^5.16.0",
+        "eslint": "^8.11.0",
+        "jest": "^27.5.1",
+        "ttypescript": "^1.5.13",
+        "typedoc": "^0.22.13",
+        "typescript": "^4.6.2",
+        "typescript-transform-paths": "^3.3.1"
     },
     "peerDependencies": {
-        "@reiryoku/mida": "^2.0.0"
+        "@reiryoku/mida": "^4.0.0"
     }
 }
