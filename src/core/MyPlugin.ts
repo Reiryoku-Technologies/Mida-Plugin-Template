@@ -14,6 +14,7 @@ export class MyPlugin extends MidaPlugin {
     }
 
     public override install (actions: MidaPluginActions): void {
-        // Silence is golden.
+        // actions.addBroker. . .
+        // actions.addIndicator. . .
     }
 }
