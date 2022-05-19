@@ -3,7 +3,7 @@ import { MidaPlugin, MidaPluginActions } from "@reiryoku/mida";
 export const pluginId: string = "...";
 export const pluginVersion: string = "1.0.0";
 
-class MyPlugin extends MidaPlugin {
+export class MyPlugin extends MidaPlugin {
     public constructor () {
         super({
             id: pluginId,
